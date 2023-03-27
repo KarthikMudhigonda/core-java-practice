@@ -1,13 +1,13 @@
-package oops;
+package oops.defaultconstructors;
 //Java Program to create and call a default constructor  
 
- class DefaultConstructor {
+ class Bike {
      // creating a default constructor
-     DefaultConstructor(){System.out.println("Default constructor is created");}
+     Bike(){System.out.println("Bike is created");}
      //main method
      public static void main(String[] args) {
         //calling a default constructor
-        DefaultConstructor d = new DefaultConstructor();
+        Bike d = new Bike();
      }
     
 }
