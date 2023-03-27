@@ -1,4 +1,4 @@
-package ControlFlow;
+package controlflow;
 
 public class IfStatement {
     public static void main(String[] args) {

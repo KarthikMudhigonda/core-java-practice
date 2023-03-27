@@ -1,4 +1,4 @@
-package Operaters;
+package operaters;
 
 public class ArthematicOperationExpression {
     public static void main(String[] args){

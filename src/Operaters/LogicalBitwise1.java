@@ -1,4 +1,4 @@
-package Operaters;
+package operaters;
 
 public class LogicalBitwise1 {
     public static void main(String args[]){  

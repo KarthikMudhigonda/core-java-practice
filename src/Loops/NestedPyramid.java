@@ -1,4 +1,4 @@
-package Loops;
+package loops;
 
 public class NestedPyramid {
     public static void main(String[] args) {

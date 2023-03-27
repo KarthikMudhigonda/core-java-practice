@@ -1,4 +1,4 @@
-package Operaters;
+package operaters;
 
 public class ShiftOperation {
     public static void main(String[] args){

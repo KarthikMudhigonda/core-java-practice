@@ -1,4 +1,4 @@
-package Loops;
+package loops;
 
 public class BreakStatement1 {
     public static void main(String[] args) {
