@@ -7,7 +7,7 @@ package oops.defaultconstructors;
      //main method
      public static void main(String[] args) {
         //calling a default constructor
-        Bike d = new Bike();
+        Bike b = new Bike();
      }
     
 }

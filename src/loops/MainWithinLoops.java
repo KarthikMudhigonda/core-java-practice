@@ -1,4 +1,4 @@
-package oops;
+package loops;
 //Java Program to illustrate how to define a class and fields  
 
 //Defining a Student class.

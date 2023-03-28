@@ -1,4 +1,4 @@
-package oops;
+package loops;
 
  class Employee {
     int id;

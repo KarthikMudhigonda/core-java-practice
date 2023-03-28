@@ -1,4 +1,4 @@
-package oops;
+package loops;
 
  class Account {
         int acc_no;
