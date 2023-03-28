@@ -7,5 +7,6 @@ static int cube(int x){
 public static void main(String[] args) {
     int result = Calculate.cube(9);
     System.out.println(result);
+
 }
 }
