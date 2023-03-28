@@ -1,4 +1,4 @@
-package oops.statickeyword;
+package oops.staticvariable;
 //Program of the counter without static variable
 //Java Program to demonstrate the use of an instance variable  
 //which get memory each time when we create an object of the class.  
