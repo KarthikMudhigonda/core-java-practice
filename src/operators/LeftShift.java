@@ -1,4 +1,4 @@
-package operaters;
+package operators;
 
 public class LeftShift {
     public static void main(String[] args){

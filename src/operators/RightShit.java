@@ -1,4 +1,4 @@
-package operaters;
+package operators;
 
 public class RightShit {
     public static void main(String[] args){

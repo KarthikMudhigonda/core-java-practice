@@ -1,4 +1,4 @@
-package operaters;
+package operators;
 
 public class OrOperation {
 
