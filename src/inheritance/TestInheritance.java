@@ -12,7 +12,6 @@ public class TestInheritance {
         Dog d = new Dog();
         d.bark();
         d.eat();
+
     }
-    
-    
 }
