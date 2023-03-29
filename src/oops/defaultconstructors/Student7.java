@@ -20,9 +20,7 @@ class Student7 {
     }
 
     Student7() { // default constructor
-        System.out.println("1");
-        System.out.println("2");
-        System.out.println("3");
+        
     }
 
     void display() {
