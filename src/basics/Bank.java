@@ -5,22 +5,18 @@ public class Bank {
 
     public static void greetCustomer() {
         System.out.println("Welcome to mobile banking");
-
     }
 
     public static void deposit(int amount) {
         currentBalance = currentBalance + amount;
-
     }
 
     public void withdrawal(int amount) {
         currentBalance = currentBalance - amount;
-
     }
 
     public int getCurrentBalance() {
         return currentBalance;
-
     }
 
     public static void main(String[] args) {
@@ -30,7 +26,6 @@ public class Bank {
         System.out.println("Current balance is: " + currentBalance);
         bank.withdrawal(1500);
         System.out.println("Current balance after withdrawal is: " + bank.getCurrentBalance());
-
     }
 
 }
