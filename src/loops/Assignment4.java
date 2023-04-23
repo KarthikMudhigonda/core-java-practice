@@ -5,7 +5,7 @@ public class Assignment4 {
     public static void main(String[] args) {
         int z = 50;
         while (z <= 150) {
-            Boolean isPrime = true;
+            boolean isPrime = true;
             for (int i = 2; i < z; i++) {
                 if (z % i == 0) {
                     isPrime = false;

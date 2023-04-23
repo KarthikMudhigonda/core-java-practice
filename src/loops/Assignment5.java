@@ -6,8 +6,8 @@ public class Assignment5 {
         int i = 40;
         int j = 0;
         while (i <= 80) {
-            j += i;
-            i += 2;
+            j += i; // j = j+i
+            i += 2; // i = i+2
         }
         System.out.println(j);
     }
