@@ -8,7 +8,8 @@ public class AverageSingleDimArray {
         Scanner e = new Scanner(System.in);
 
         System.out.print("Enter the array size: ");
-        int size = e.nextInt();
+        int size = e.nextInt(); // This line reads the user input for the array size
+        // and assigns it to the "size" variable
 
         int[] arr = new int[size]; // Is this a constructor?
 
@@ -16,7 +17,8 @@ public class AverageSingleDimArray {
                                                           // number of arrays
         for (int i = 0; i < size; i++) {
             int num = e.nextInt();
-            arr[i] = num;
+            arr[i] = num; // // This line stores the current array element in the "arr"
+            // array at the current index "i"
         }
 
         System.out.println("Input: " + Arrays.toString(arr));
