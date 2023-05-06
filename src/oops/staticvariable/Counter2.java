@@ -1,4 +1,4 @@
-package oops.staticvariable;
+package oops.thiskeyword.staticvariable;
 
 //Java Program to illustrate the use of static variable which  
 //is shared with all objects.  

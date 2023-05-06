@@ -3,51 +3,51 @@ package techatcore;
 import java.util.ArrayList;
 import java.util.List;
 
-public class InternAssessment {
+public class InternAssessment { // Change to PalindromeStringFinder
     public static void main(String[] args) {
         // Create an array of input strings
-        String[] inputStrings = { "KARTHIK", "AVA", "HAPPY", "REFER", "CIVIC", "HANNAH" };
+        //Decalred, initialised and instantiated all at once
+        String[] inputStrings = { "KARTHIK", "AVA", "HAPPY", "REFER", "CIVIC", "HANNAH", };
 
         // Create two ArrayLists to store palindrome and non-palindrome strings
         List<String> palindromeStrings = new ArrayList<>();
         List<String> nonPalindromeStrings = new ArrayList<>();
 
-        for (String s : inputStrings) {
+        for (String inputString : inputStrings) { // for each loop
             // Using if checking is string a palidrome
-            if (isPalindrome(s)) {
+            if (isPalindrome(inputString)) {
                 // If yes, adding it to palindrome list
-                palindromeStrings.add(s);
+                palindromeStrings.add(inputString);
             } else {
                 // If it's not, adding it to non palindrome list
-                nonPalindromeStrings.add(s);
+                nonPalindromeStrings.add(inputString);
             }
         }
 
         // Print the number of palindrome strings and their values
         System.out.println("Count of Palindrome Strings: " + palindromeStrings.size());
-        for (String s : palindromeStrings) {
-            System.out.println("Palindrome string: " + s);
+        for (String palindrome : palindromeStrings) {
+            System.out.println("Palindrome string: " + palindrome);
         }
         // Print the number of non-palindrome strings and their values
-        System.out.println("Count of Non-Palindrome Strings: " + nonPalindromeStrings.size());
-        for (String s : nonPalindromeStrings) {
-            System.out.println("Non-Palindrome string: " + s);
+        System.out.println("Count of Non - Palindrome Strings: " + nonPalindromeStrings.size());
+        for (String nonPalindrome : nonPalindromeStrings) {
+            System.out.println("Non - Palindrome string: " + nonPalindrome);
         }
     }
 
-    // function to check if a string is a palindrome
-    public static boolean isPalindrome(String s) {
-        int i = 0;
-        int j = s.length() - 1;
-        while (i < j) {
-            if (s.charAt(i) != s.charAt(j)) {
-                // If the characters at i and j are not equal, the string is not a palindrome
-                return false;
-            }
-            i++;
-            j--;
+    // Function to check if a string is a palindrome
+    public static boolean isPalindrome(String inputString) {
+        String reverseString = "";
+        int inputStringLength = inputString.length() - 1;
+        for (int count = inputStringLength; count >= 0; --count) {
+            reverseString += inputString.charAt(count);
         }
-        // If we've reached this point, the string is a palindrome
-        return true;
+        // If the given input string is a palindrome
+        if (inputString.equals(reverseString)) {
+            return true;
+        } else { // If it is a non palindrome
+            return false;
+        }
     }
 }

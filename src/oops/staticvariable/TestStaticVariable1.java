@@ -1,4 +1,4 @@
-package oops.staticvariable;
+package oops.thiskeyword.staticvariable;
 
 class Student{
     int  rollno; // instance variable
